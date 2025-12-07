@@ -299,7 +299,7 @@ export default function Home() {
             <div className="fade-in border border-border p-8 hover:border-accent/50 transition-colors duration-300" style={{ animationDelay: "0.3s" }}>
               <div className="flex items-start justify-between gap-4 mb-3">
                 <h3 className="text-xl font-semibold">Obesity Level Prediction</h3>
-                <a href="#" className="text-accent hover:text-accent/80 transition-colors" title="Project link">
+                <a href="https://github.com/othytrigui/Obesity-level-prediction" className="text-accent hover:text-accent/80 transition-colors" title="Project link">
                   <ExternalLink size={18} />
                 </a>
               </div>
@@ -320,7 +320,7 @@ export default function Home() {
             <div className="fade-in border border-border p-8 hover:border-accent/50 transition-colors duration-300" style={{ animationDelay: "0.4s" }}>
               <div className="flex items-start justify-between gap-4 mb-3">
                 <h3 className="text-xl font-semibold">Online Sales Data Analysis</h3>
-                <a href="#" className="text-accent hover:text-accent/80 transition-colors" title="Project link">
+                <a href="https://github.com/othytrigui/Online-Sales-Data-Analysis" className="text-accent hover:text-accent/80 transition-colors" title="Project link">
                   <ExternalLink size={18} />
                 </a>
               </div>
@@ -430,28 +430,28 @@ export default function Home() {
           <h2 className="text-4xl font-bold mb-16">Certifications</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <a href="https://learn.microsoft.com/en-us/credentials/certifications/azure-data-scientist/" target="_blank" rel="noopener noreferrer" className="fade-in flex items-start gap-3 p-4 border border-border hover:border-accent/50 transition-colors duration-300" style={{ animationDelay: "0.1s" }}>
+            <a href="https://learn.microsoft.com/api/credentials/share/en-us/OthmanTrigui/575EEED37E7D1F4?sharingId=642B61E4A1514E02" target="_blank" rel="noopener noreferrer" className="fade-in flex items-start gap-3 p-4 border border-border hover:border-accent/50 transition-colors duration-300" style={{ animationDelay: "0.1s" }}>
               <span className="text-accent mt-1">✓</span>
               <div>
                 <p className="text-muted-foreground hover:text-accent transition-colors">Microsoft Certified: Azure Data Scientist Associate</p>
               </div>
             </a>
 
-            <a href="https://www.deeplearning.ai/short-courses/machine-learning-specialization/" target="_blank" rel="noopener noreferrer" className="fade-in flex items-start gap-3 p-4 border border-border hover:border-accent/50 transition-colors duration-300" style={{ animationDelay: "0.2s" }}>
+            <a href="https://www.coursera.org/account/accomplishments/specialization/MKZNZHL5QEEK" target="_blank" rel="noopener noreferrer" className="fade-in flex items-start gap-3 p-4 border border-border hover:border-accent/50 transition-colors duration-300" style={{ animationDelay: "0.2s" }}>
               <span className="text-accent mt-1">✓</span>
               <div>
                 <p className="text-muted-foreground hover:text-accent transition-colors">Machine Learning Specialization - DeepLearning.AI</p>
               </div>
             </a>
 
-            <a href="https://www.deeplearning.ai/short-courses/advanced-computer-vision-with-tensorflow/" target="_blank" rel="noopener noreferrer" className="fade-in flex items-start gap-3 p-4 border border-border hover:border-accent/50 transition-colors duration-300" style={{ animationDelay: "0.3s" }}>
+            <a href="https://www.coursera.org/account/accomplishments/certificate/N5B2UGEAGEZU" target="_blank" rel="noopener noreferrer" className="fade-in flex items-start gap-3 p-4 border border-border hover:border-accent/50 transition-colors duration-300" style={{ animationDelay: "0.3s" }}>
               <span className="text-accent mt-1">✓</span>
               <div>
                 <p className="text-muted-foreground hover:text-accent transition-colors">Advanced Computer Vision - DeepLearning.AI</p>
               </div>
             </a>
 
-            <a href="https://www.coursera.org/learn/python-for-applied-data-science-ai" target="_blank" rel="noopener noreferrer" className="fade-in flex items-start gap-3 p-4 border border-border hover:border-accent/50 transition-colors duration-300" style={{ animationDelay: "0.4s" }}>
+            <a href="https://www.coursera.org/account/accomplishments/certificate/FBRH6STXCMYQ" target="_blank" rel="noopener noreferrer" className="fade-in flex items-start gap-3 p-4 border border-border hover:border-accent/50 transition-colors duration-300" style={{ animationDelay: "0.4s" }}>
               <span className="text-accent mt-1">✓</span>
               <div>
                 <p className="text-muted-foreground hover:text-accent transition-colors">Python for Data Science, AI & Development - IBM</p>
@@ -521,7 +521,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-border py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
-          <p>© 2025 Othman Trigui. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Othman Trigui. All rights reserved.</p>
           <div className="flex items-center gap-6">
             <a href="https://linkedin.com/in/trigui" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">LinkedIn</a>
             <a href="https://github.com/othytrigui" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">GitHub</a>
