@@ -117,27 +117,27 @@ export default function Home() {
               <p className="text-muted-foreground mb-4">Netopia Solutions, Rabat</p>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li className="flex gap-3">
-                  <span className="text-accent mt-1">•</span>
+                  <span className="text-accent">•</span>
                   <span>Installed and configured a SonarQube server to centralize code quality analysis</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-accent mt-1">•</span>
+                  <span className="text-accent">•</span>
                   <span><span className="font-semibold">DPP Project (Dossier Patient Partagé):</span> Developed a Spark Structured Streaming pipeline from Kafka for near real-time ingestion and transformation of JSON data from FSE and hospital information systems, storing it in a structured format in HBase using Scala</span>
                 </li>
                 <li className="flex gap-3 ml-6">
-                  <span className="text-accent mt-1">◦</span>
+                  <span className="text-accent">◦</span>
                   <span>Designed a Spark Structured Streaming pipeline that reads medical report file paths from Kafka, extracts their content from MinIO, and stores them in Ozone for distributed file management</span>
                 </li>
                 <li className="flex gap-3 ml-6">
-                  <span className="text-accent mt-1">◦</span>
+                  <span className="text-accent">◦</span>
                   <span>Performed mapping and indexing of HBase tables in Phoenix to enable optimized SQL access and queries on the data</span>
                 </li>
                 <li className="flex gap-3 ml-6">
-                  <span className="text-accent mt-1">◦</span>
+                  <span className="text-accent">◦</span>
                   <span>Implemented an automated NiFi flow to back up raw data from Kafka into a partitioned HDFS, ensuring traceability and storage resilience</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-accent mt-1">•</span>
+                  <span className="text-accent">•</span>
                   <span><span className="font-semibold">FSE Project (Feuille de soins électronique):</span> Linked the project's DevOps repositories to the SonarQube server and exposed the analysis results on a Grafana dashboard using a Python scraper and the SonarQube API</span>
                 </li>
               </ul>
@@ -152,19 +152,19 @@ export default function Home() {
               <p className="text-muted-foreground mb-4">Netopia Solutions, Rabat</p>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li className="flex gap-3">
-                  <span className="text-accent mt-1">•</span>
+                  <span className="text-accent">•</span>
                   <span>Developed a Cyber Threat Intelligence platform implementing 360° monitoring with modules for brand surveillance, VIP identity protection, and image monitoring of companies and public figures, leveraging real-time data from social media, news, and the dark web</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-accent mt-1">•</span>
+                  <span className="text-accent">•</span>
                   <span>Built, deployed, and automated the solution through a complete DevOps pipeline (Azure Pipelines, Repos) with Redis queuing and browser automation</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-accent mt-1">•</span>
+                  <span className="text-accent">•</span>
                   <span>Collaborated within a Scrum team, contributing to architecture design, backend development, and CI/CD deployment in 2-week sprints</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-accent mt-1">•</span>
+                  <span className="text-accent">•</span>
                   <span>FSE Project (Feuille de soins électronique): Migrated an Oracle database from a Windows machine to a Linux VM, including environment setup, service configuration, and data transfer</span>
                 </li>
               </ul>
@@ -179,15 +179,15 @@ export default function Home() {
               <p className="text-muted-foreground mb-4">Netopia Solutions, Rabat</p>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li className="flex gap-3">
-                  <span className="text-accent mt-1">•</span>
+                  <span className="text-accent">•</span>
                   <span>Implemented and evaluated transcription and diarization models (Whisper, AssemblyAI, Pyannote) to accurately transcribe and distinguish between speakers in multilingual audio recordings</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-accent mt-1">•</span>
+                  <span className="text-accent">•</span>
                   <span>Utilized models like BART and GPT-3.5 for summarizing interview transcripts, optimizing the interview analysis process</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-accent mt-1">•</span>
+                  <span className="text-accent">•</span>
                   <span>Utilized GPT-3.5 to generate tailored interview questions and technical tests based on job descriptions and candidate profiles</span>
                 </li>
               </ul>
@@ -202,15 +202,15 @@ export default function Home() {
               <p className="text-muted-foreground mb-4">ONEE - BE, Casablanca</p>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li className="flex gap-3">
-                  <span className="text-accent mt-1">•</span>
+                  <span className="text-accent">•</span>
                   <span>Built machine learning models to classify, detect and extract desired information from national ID cards</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-accent mt-1">•</span>
+                  <span className="text-accent">•</span>
                   <span>Used Azure services (Blob Storage, ML Studio) to extract the data and to train the models</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-accent mt-1">•</span>
+                  <span className="text-accent">•</span>
                   <span>Developed a web application using Flask to test the models</span>
                 </li>
               </ul>
@@ -225,15 +225,15 @@ export default function Home() {
               <p className="text-muted-foreground mb-4">Société Briqueterie Bati Chaouia, Berrechid</p>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li className="flex gap-3">
-                  <span className="text-accent mt-1">•</span>
+                  <span className="text-accent">•</span>
                   <span>Redesigned and rebuilt the company's official website from scratch using PHP, HTML, CSS, JavaScript, and MySQL</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-accent mt-1">•</span>
+                  <span className="text-accent">•</span>
                   <span>Built admin panel allowing administrators to easily add, edit, and remove products directly on the website without technical knowledge</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-accent mt-1">•</span>
+                  <span className="text-accent">•</span>
                   <span>Designed the website to be fully responsive, secure, and optimized for a smooth user experience across devices</span>
                 </li>
               </ul>
@@ -431,28 +431,28 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <a href="https://learn.microsoft.com/api/credentials/share/en-us/OthmanTrigui/575EEED37E7D1F4?sharingId=642B61E4A1514E02" target="_blank" rel="noopener noreferrer" className="fade-in flex items-start gap-3 p-4 border border-border hover:border-accent/50 transition-colors duration-300" style={{ animationDelay: "0.1s" }}>
-              <span className="text-accent mt-1">✓</span>
+              <span className="text-accent">✓</span>
               <div>
                 <p className="text-muted-foreground hover:text-accent transition-colors">Microsoft Certified: Azure Data Scientist Associate</p>
               </div>
             </a>
 
             <a href="https://www.coursera.org/account/accomplishments/specialization/MKZNZHL5QEEK" target="_blank" rel="noopener noreferrer" className="fade-in flex items-start gap-3 p-4 border border-border hover:border-accent/50 transition-colors duration-300" style={{ animationDelay: "0.2s" }}>
-              <span className="text-accent mt-1">✓</span>
+              <span className="text-accent">✓</span>
               <div>
                 <p className="text-muted-foreground hover:text-accent transition-colors">Machine Learning Specialization - DeepLearning.AI</p>
               </div>
             </a>
 
             <a href="https://www.coursera.org/account/accomplishments/certificate/N5B2UGEAGEZU" target="_blank" rel="noopener noreferrer" className="fade-in flex items-start gap-3 p-4 border border-border hover:border-accent/50 transition-colors duration-300" style={{ animationDelay: "0.3s" }}>
-              <span className="text-accent mt-1">✓</span>
+              <span className="text-accent">✓</span>
               <div>
                 <p className="text-muted-foreground hover:text-accent transition-colors">Advanced Computer Vision - DeepLearning.AI</p>
               </div>
             </a>
 
             <a href="https://www.coursera.org/account/accomplishments/certificate/FBRH6STXCMYQ" target="_blank" rel="noopener noreferrer" className="fade-in flex items-start gap-3 p-4 border border-border hover:border-accent/50 transition-colors duration-300" style={{ animationDelay: "0.4s" }}>
-              <span className="text-accent mt-1">✓</span>
+              <span className="text-accent">✓</span>
               <div>
                 <p className="text-muted-foreground hover:text-accent transition-colors">Python for Data Science, AI & Development - IBM</p>
               </div>
